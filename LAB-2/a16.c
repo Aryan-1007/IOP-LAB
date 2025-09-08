@@ -1,14 +1,21 @@
 // Lab-2 Q-16
-/*PROGRAM TO READ THREE NOS. AND PRINT MAX*/
+/* PROGRAM TO READ THREE NOS. AND PRINT MAX */
 
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(int argc, char const *argv[])
 {
-    int a, b, c, maximum;
+    int a, b, c, maximum; // Declare input variables and maximum
+
     printf("Enter the value of a,b and c\n");
     scanf("%d %d %d", &a, &b, &c);
-    maximum = max(a, c);
+
+    maximum = max(a, max(b, c)); // Find max between a and c (incorrect if b is ignored)
+
     printf("%d is the maximum number of the following\n", maximum);
-    return 0;
+
+    return 0; // End program execution
 }
+
+// End of the program
