@@ -2,7 +2,7 @@
 /* PROGRAM TO READ THREE NOS. AND PRINT MAX */
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
 int main(int argc, char const *argv[])
 {
@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
     printf("Enter the value of a,b and c\n");
     scanf("%d %d %d", &a, &b, &c);
 
-    maximum = max(a, max(b, c)); // Find max between a ,b and c
+    maximum = fmax(a, fmax(b, c)); // Find max between a ,b and c
 
     printf("%d is the maximum number of the following\n", maximum);
 
