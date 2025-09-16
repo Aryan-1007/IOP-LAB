@@ -11,11 +11,11 @@ int main(int argc, char const *argv[])
     printf("Enter the value of a,b and c\n");
     scanf("%d %d %d", &a, &b, &c);
 
-    maximum = max(a, max(b, c)); // Find max between a and c (incorrect if b is ignored)
+    maximum = max(a, max(b, c)); // Find max between a ,b and c
 
     printf("%d is the maximum number of the following\n", maximum);
 
-    return 0; // End program execution
+    return 0;
 }
 
 // End of the program
