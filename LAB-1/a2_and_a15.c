@@ -28,6 +28,22 @@ int main(int argc, char const *argv[])
     percentage = total / 5.0;
 
     printf("You have scored %f per cent of total marks", percentage);
+    if (percentage >= 60)
+    {
+        printf("\nYou have secured First Division");
+    }
+    else if (percentage >= 50 && percentage < 60)
+    {
+        printf("\nYou have secured Second Division");
+    }
+    else if (percentage >= 40 && percentage < 50)
+    {
+        printf("\nYou have secured Third Division");
+    }
+    else
+    {
+        printf("\nYou have Failed");
+    }
     return 0;
 }
 // End of the program
