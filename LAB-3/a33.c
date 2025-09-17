@@ -30,4 +30,5 @@ int main(int argc, char const *argv[])
     printf("The maximum of the following is %d\n",max);
     printf("The minimum of the following is %d",mini);
     return 0;
-}//END OF THE PROGRAM
+}
+//END OF THE PROGRAM

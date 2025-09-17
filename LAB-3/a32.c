@@ -26,3 +26,4 @@ int main(int argc, char const *argv[])
     printf("The second maximum number of the following is %d",second_max);
     return 0;
 }
+//END OF THE PROGRAM
