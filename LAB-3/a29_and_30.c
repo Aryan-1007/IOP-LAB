@@ -25,9 +25,9 @@ int main(int argc, char const *argv[])
     }
 
     if (reversed == num) // Check if reversed equals original number
-        printf("%d is a Palindrome number.\n", reversed);
+        printf("%d is a Palindrome number.\n", num);
     else
-        printf("%d is not a Palindrome number.\n", reversed);
+        printf("%d is not a Palindrome number.\n", num);
 
     return 0;
 }

@@ -18,9 +18,9 @@ int main(int argc, char const *argv[])
 
     while (temp > 0)
     {
-        digit = temp % 10;    // Extract last digit
-        sum += pow(digit, n); // Add digit^n to sum
-        temp /= 10;           // Remove last digit
+        digit = temp % 10;                // Extract last digit
+        sum += (int)round(pow(digit, n)); // Add digit^n to sum
+        temp /= 10;                       // Remove last digit
     }
 
     if (sum == num) // Check if sum equals original number
